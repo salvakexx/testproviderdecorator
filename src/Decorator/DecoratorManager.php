@@ -92,6 +92,8 @@ class DecoratorManager
     }
 
     /**
+     * Get cache item by input data
+     *
      * @param  array $input
      * @return CacheItemInterface
      */
@@ -101,6 +103,7 @@ class DecoratorManager
     }
 
     /**
+     * Is cache is valid
      * @param  CacheItemInterface $cacheItem
      * @return boolean
      */
@@ -110,6 +113,7 @@ class DecoratorManager
     }
 
     /**
+     * Update Cache Item
      * @param CacheItemInterface $cacheItem
      * @param array $result
      */
