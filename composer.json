@@ -1,0 +1,16 @@
+{
+    "name": "kexx/testskyeng",
+    "authors": [
+        {
+            "name": "dmitriy.timoshenko",
+            "email": "dmitriy.timoshenko@attractgroup.com"
+        }
+    ],
+    "require": {
+        "psr/cache": "*",
+        "psr/log": "*"
+    },
+    "autoload": {
+        "psr-4": {"SomeApiIntegration\\": "src/"}
+    }
+}
